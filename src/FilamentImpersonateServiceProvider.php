@@ -12,6 +12,8 @@ use Filament\Support\Facades\FilamentView;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 use STS\FilamentImpersonate\Actions\Impersonate;
 use BladeUI\Icons\Factory;
+use function auth;
+use function session;
 
 class FilamentImpersonateServiceProvider extends PackageServiceProvider
 {
